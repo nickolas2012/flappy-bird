@@ -144,3 +144,8 @@ anim.addAnimationFrame(img`
     ........................
     `)
 animation.attachAnimation(mySprite, anim)
+game.onUpdate(function () {
+    if (true) {
+    	
+    }
+})

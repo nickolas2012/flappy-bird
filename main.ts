@@ -5,6 +5,8 @@ enum ActionKind {
 }
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.vy = -50
+    animation.setAction(mySprite, ActionKind.Jumping)
+    mySprite.startEffect(effects.fire)
 })
 let mySprite: Sprite = null
 scene.setBackgroundColor(9)
